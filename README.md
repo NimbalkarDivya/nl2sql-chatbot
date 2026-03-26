@@ -15,6 +15,7 @@ python setup_database.py
 python seed_memory.py
 python -m uvicorn main:app --reload
 
+
 ## API
 POST /chat
 {
