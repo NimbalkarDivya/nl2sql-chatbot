@@ -12,7 +12,9 @@ If no API key is provided, the system may not function correctly as it relies on
 
 ## Run
 python setup_database.py
+
 python seed_memory.py
+
 python -m uvicorn main:app --reload
 
 
