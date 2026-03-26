@@ -31,6 +31,7 @@ POST /chat
 
 ## Project Structure
 PROJECT/
+
 │
 ├── main.py # FastAPI application
 
