@@ -65,4 +65,5 @@ SQL Query
 SQLite Database
       ↓
       
-Result → API Response
+Result → 
+API Response
