@@ -41,12 +41,18 @@ PROJECT/
 
 ## Architecture
 
-User Question  
-      ↓  
-Vanna Agent (LLM)  
-      ↓    
-SQL Query  
-      ↓   
+User
+↓
+FastAPI Backend   
+↓   
+Prompt Engineering Layer   
+↓  
+LLM (Vanna / Gemini)  
+↓  
+SQL Validation Layer  
+↓  
 SQLite Database  
-      ↓   
-Result → API Response   
+↓  
+Response Formatter  
+↓  
+API Response    
