@@ -41,18 +41,18 @@ PROJECT/
 
 ## Architecture
 
-User
-↓
-FastAPI Backend   
-↓   
-Prompt Engineering Layer   
+User (Natural Language Query)  
 ↓  
-LLM (Vanna / Gemini)  
+FastAPI Backend (main.py)  
 ↓  
-SQL Validation Layer  
+Prompt Engineering + Schema Injection   
 ↓  
-SQLite Database  
+Gemini LLM (SQL Generation)  
 ↓  
-Response Formatter  
+SQL Cleaning & Validation Layer    
 ↓  
-API Response    
+SQLite Database (clinic.db)  
+↓  
+Result Processing + Caching  
+↓  
+API Response (JSON)    
